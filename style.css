@@ -21,3 +21,11 @@ h1 {
     margin-left: 15px;
 }
 
+ul {
+    margin: 50px;
+    font-size: 20px;
+}
+
+li > a {
+    text-decoration: none;
+}
