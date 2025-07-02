@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background: url("./assets/pics/black-friday-best-sale-shopping-cart-with-bags.jpg") no-repeat center center/cover;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004466;
+    padding: 12px 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;        
+}
+
+.nav-links a:hover {
+    background-color: #006699;
+    border-radius: 4px;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.home-page h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #004466;
+}
+
+.home-page p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.shop-button {
+    text-decoration: none;
+    background-color: #004466;
+    color: white;
+    padding: 8px 22px;
+    border-radius: 5px;
+}
+
+.shop-button:hover {
+    background-color: #006699;
+}
