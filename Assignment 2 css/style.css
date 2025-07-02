@@ -6,7 +6,9 @@
 }
 
 body{
-    background-image: url(./assets/pics/smartphone-with-headphones-stationery.jpg);
+    background-image: url("./assets/pics/smartphone-with-headphones-stationery.jpg");
+    background-repeat: repeat;
+    background-size: contain;
 }
 .main {
     display: flex;
