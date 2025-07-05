@@ -42,3 +42,9 @@ li >a:hover {
 ul>li>a:hover{
     color: rgb(101, 216, 78);
 }
+
+fieldset{
+    margin: 40px;
+    outline-style: dotted;
+    border: none;
+}
