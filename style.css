@@ -132,7 +132,7 @@ body {
     background-color: rgb(126, 19, 19);
     border: none;
 }
-.container .main-left button:active {
+.container .main-left button::before {
     color: white;
     background-color: rgb(126, 19, 19);
     border: none;
