@@ -151,6 +151,7 @@ span {
     justify-content: space-evenly;
     background-color: #ffe972;
     margin-bottom: 50px;
+    height: 800px;
 }
 
 .box {
@@ -250,4 +251,8 @@ ul a {
     padding-top: 5px;
     font-size: 0.7rem;
     text-align: center;
+}
+
+@media only screen and (max-width: 260px) {
+    
 }
