@@ -200,5 +200,8 @@ body {
         width: 90px;
     }
     
+    .container .main-left h3 {
+        font-size: 36px;
+    }
 
 }
