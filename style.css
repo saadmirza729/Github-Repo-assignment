@@ -132,6 +132,11 @@ body {
     background-color: rgb(126, 19, 19);
     border: none;
 }
+.container .main-left button:active {
+    color: white;
+    background-color: rgb(126, 19, 19);
+    border: none;
+}
 
 .container .main-right video {
     margin-left: 600px;
