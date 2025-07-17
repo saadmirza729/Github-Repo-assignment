@@ -188,6 +188,17 @@ body {
         margin-top: 340px;
     }
 
+    .container .main-left .b1 {
+        width: 100px;
+    }
+
+    .container .main-left .b2 {
+        width: 95px;
+    }
+    
+    .container .main-left .b3 {
+        width: 90px;
+    }
     
 
 }
