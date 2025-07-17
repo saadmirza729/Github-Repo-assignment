@@ -147,14 +147,15 @@ span {
 
 .shop-sec {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #ffe972;
     margin-bottom: 50px;
-    height: 800px;
+    height: 100%;
+    flex-wrap: wrap;
 }
 
 .box {
+    
     height: 400px;
     width: 23%;
     background-color: white;
@@ -177,6 +178,7 @@ span {
 .box-content {
     margin-left: 20px;
     margin-right: 20px;
+    flex-wrap: wrap;
 }
 
 .box-content p {
@@ -253,6 +255,45 @@ ul a {
     text-align: center;
 }
 
-@media only screen and (max-width: 260px) {
-    
+@media only screen and (max-width: 900px) {
+    .add-second {
+    display: none;
+}
+
+.add-icon {
+    display: none;
+}
+
+.add-first {
+    display: none;
+}
+.nav-signin, .nav-return p {
+    display: none;
+}
+
+.nav-card .card {
+    display: none;
+}
+
+.nav-search {
+    margin-right: 5px;
+}
+
+.panel .media-panel {
+    display: none;
+}
+
+.hero-section {
+    height: 60vh;
+    background-image: url("./assets/Logo/hero.image.jpg");
+}
+
+.box {
+    width: 95%;
+    gap: 12px;
+    margin: 6%;
+    margin-top: 2px;
+}
+
+
 }
