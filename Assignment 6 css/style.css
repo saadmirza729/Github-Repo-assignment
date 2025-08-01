@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---- Navbar Section ---- */
+
+
+.navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 12px;  
+}
+
+.list-nav {
+    margin-left: 150px;
+}
+
+.navbar .navbar-list .list-nav .nav-link {   
+    font-size: 13px;
+    padding-right: 25px;
+}
+
+.navbar-list .list-nav .logo img {
+    width: 20px;
+}
+
+.navbar .logo img {
+    width: 22px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    bottom: 10px;
+}
+
+
+.navbar .nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.navbar .nav-icon i {
+    padding-right: 30px;
+}
+
+
+/* --- Media Query for navbar ---  */
+
+
+@media only screen and (max-width: 1268px) {
+    .list-nav {
+    margin-left: 180px;
+}
+    .navbar .navbar-list .list-nav .nav-link {   
+    padding-right: 18px;
+}
+    .navbar .logo img {
+    
+        margin-left: 160px;
+}
+    .navbar .nav-icon {
+    margin-right: 100px;
+}
+
+}
+
+@media only screen and (max-width: 1222px) {
+    .list-nav {
+    margin-left: 160px;
+}
+    .navbar .navbar-list .list-nav .nav-link {   
+    padding-right: 18px;
+}
+    .navbar .logo img {
+    
+        margin-left: 130px;
+}
+    .navbar .nav-icon {
+    margin-right: 100px;
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+   
+    .list-nav {
+    margin-left: 150px;
+}
+
+    .navbar .navbar-list .list-nav .nav-link {   
+    padding-right: 15px;
+}
+
+}
+
+@media only screen and (max-width: 1158px) {
+    .list-nav {
+    margin-left: 120px;
+}
+    .navbar .navbar-list .list-nav .nav-link {   
+    padding-right: 18px;
+}
+    .navbar .logo img {
+    
+        margin-left: 80px;
+}
+    .navbar .nav-icon {
+    margin-right: 30px;
+}
+
+}
+
+@media only screen and (max-width: 1102px) {
+
+    .list-nav {
+    margin-left: 80px;
+}
+    .navbar .navbar-list .list-nav .nav-link {   
+    padding-right: 18px;
+}
+    .navbar .logo img {
+    
+        margin-left: 70px;
+}
+    .navbar .nav-icon {
+    margin-right: 5px;
+}
+}
+
+
+@media only screen and (max-width: 1026px) {
+
+    .list-nav {
+    margin-left: 80px;
+}
+    .navbar .navbar-list .list-nav .nav-link {   
+    padding-right: 13px;
+}
+    .navbar .logo img {
+    
+     margin-left: 40px;
+}
+    
+}
+
+@media only screen and (max-width: 992px) {
+
+   .menu-bar-main .menu-button {
+    margin-left: 800px;
+    border: none;
+
+
+}
+
+.menu-bar-main .menu-button span {
+
+    width: 20px;
+}
+
+    .navbar .logo img {
+
+        margin-left: 70px;
+}
+    .navbar .nav-icon {
+    position: absolute;
+    margin-left: 700px;
+}
+    
+}
+
+@media only screen and (max-width: 900px) {
+   
+    .menu-bar-main .menu-button {
+    margin-left: 700px;
+    border: none;
+}
+    .navbar .nav-icon {
+    position: absolute;
+    margin-left: 600px;
+}
+
+}
+
+@media only screen and (max-width: 900px) {
+   
+    .menu-bar-main .menu-button {
+    margin-left: 600px;
+    border: none;
+}
+    .navbar .nav-icon {
+    position: absolute;
+    margin-left: 500px;
+}
+
+}
+
+@media only screen and (max-width: 692px) {
+   
+    .menu-bar-main .menu-button {
+    margin-left: 500px;
+    border: none;
+}
+    .navbar .nav-icon {
+    position: absolute;
+    margin-left: 400px;
+}
+
+}
+
+@media only screen and (max-width: 592px) {
+   
+    .menu-bar-main .menu-button {
+    margin-left: 400px;
+    border: none;
+}
+
+ .navbar .logo img {
+
+    margin-left: 20px;
+}
+
+    .navbar .nav-icon  {
+    position: absolute;
+    margin-left: 320px;
+}
+
+}
+
+@media only screen and (max-width: 492px) {
+   
+    .menu-bar-main .menu-button  {
+    margin-left: 300px;
+    border: none;
+}
+    .navbar .nav-icon  {
+    position: absolute;
+    margin-left: 220px;
+    
+}
+
+}
+
+@media only screen and (max-width: 392px) {
+   
+    .menu-bar-main .menu-button {
+    margin-left: 270px;
+    border: none;
+}
+    .navbar .nav-icon  {
+    display: none;
+}
+
+}
+
+@media only screen and (max-width: 342px) {
+   
+    .menu-bar-main .menu-button {
+    margin-left: 240px;
+    border: none;
+}
+    .navbar .nav-icon  {
+    display: none;
+}
+
+}
+

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -153,6 +154,33 @@ body {
     margin-left: 640px;
     bottom: 50px;
     font-size: 16px;
+}
+
+.main-project {
+    margin-left: 40px;
+}
+
+.projectheading {
+    margin: 20px 0;
+    font-size: 45px;
+}
+
+.project-list ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+.project-list ul li a:hover {
+    color: rgb(126, 19, 19);
+}
+
+.project-list ul li {
+
+    text-decoration: none;
+    list-style-type: none;
+    margin: 5px 0;
 }
 
 @media only screen and (max-width: 900px) {
