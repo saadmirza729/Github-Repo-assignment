@@ -1,46 +1,32 @@
-alert("Password is incorrect!");
-
-alert("Write it carefully");
-
-var firstname = "Mr.Saad";
-firstname = "Saad";
-
-var lastname = "Call Me Mirza";
-lastname = "Mirza";
-
-var mynationality = "U.S";
-mynationality = "Pakistan";
-
-var thanks = "Thanks you for Entering"
-alert(thanks);
-
-console.log("my name is" + " " + firstname + " " + lastname);
-
-var num1 = "50";
-var num2 = "50";
-
-console.log(num1 + num2);
+var num1 = +prompt("Enter first number")
+var operators = prompt("+, -, *, /, and %")
+var num2 = +prompt("Enter second number")
 
 
+if (operators === "-") {
+  alert(num1 - num2)
+}
 
-var weight = 200;
+else if (operators === "+") {
+  alert(num1 + num2)
+}
 
-weight = 200;
+if (operators === "*") {
+  alert(num1 * num2)
+}
 
-var result1 = weight + 100;
+if (operators === "/") {
+  alert(num1 / num2)
+}
 
-var numone = 93;
-var numtwo = 7;
+if (operators === "%") {
+  alert(num1 % num2)
+}
 
-var mainnum = numone + numtwo;
+else {
+  alert("error")
+}
 
-var value = 40;
-value = value + 10;
-
-
-// We can we like this, use number after word in variable not before, so it will not work
-
-var subject1 = "Monday"
 
 
 
